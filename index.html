@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Esencia 27</title>
+</head>
+
+<body>
+<header>
+  <h1>ESENCIA 27</h1>
+  <p>Perfumería de contratipos</p>
+</header>
+
+<main>
+  <section>
+    <h2>Encuentra tu aroma</h2>
+    <p>Descubre nuestra colección de fragancias.</p>
+
+    <button>Dama</button>
+    <button>Caballero</button>
+    <button>Unisex</button>
+  </section>
+
+  <section>
+    <h2>Nuestros perfumes</h2>
+    <div class="buscador">
+  <input
+    type="text"
+    id="busqueda"
+    placeholder="🔎 Buscar perfume..."
+  >
+</div>
+
+    <div id="catalogo"></div>
+    
+<section id="seccion-carrito" class="carrito-oculto">
+  
+<button id="cerrar-carrito" type="button" aria-label="Cerrar carrito">
+  ✕
+</button>
+
+  <h2>🛒 Mi carrito</h2>
+
+  <div id="lista-carrito"></div>
+
+  <p id="total-carrito">Total: $0 MXN</p>
+
+  <button id="enviar-carrito" type="button">
+    Enviar pedido por WhatsApp
+  </button>
+</section>
+
+  </section>
+</main>
+
+<footer>
+  <p>©️ 2026 Esencia 27</p>
+</footer>
+
+  <button id="carrito-flotante" type="button"
+  aria-label="Abrir carrito">
+  🛒
+  <span id="contador-carrito">0</span>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
